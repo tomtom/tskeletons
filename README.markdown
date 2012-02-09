@@ -9,9 +9,9 @@ By default, this is the directory where tskeleton searches for skeletons. This d
 
 2. Automatically configured skeletons are kept in the "templates" subdirectory. tskeleton will automatically define suitable autocommands for you. The effect of the above example could also be achieved by saving the template as
 
-       ".../templates/text/text #.vim"
+        ".../templates/text/text #.vim"
 
 3. "Bits" are skeletons for small portions of code. These are saved in the "bits" subdirectory. Example: The bits for, say, vimscript 
 
-       files are kept in ".../bits/vim/"
+        files are kept in ".../bits/vim/"
 
