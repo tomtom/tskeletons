@@ -1,0 +1,4 @@
+CREATE <+CURSOR/UNIQUE +>INDEX<+/ IF NOT EXISTS+> <+NAME+>
+ON <+TABLE+> (
+    <+/index_column+>
+);

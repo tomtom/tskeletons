@@ -1,0 +1,2 @@
+<+input("s:cols?!", "Cols: ", 3)+>
+<+CURSOR+><+for(s:coln in range(s:cols - 1))+> & <+CELL+><+endfor+> \\

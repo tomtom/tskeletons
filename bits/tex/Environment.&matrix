@@ -1,0 +1,6 @@
+<tskel:menu>
+Math.Matrix
+</tskel:menu>
+\begin{matrix}
+    <+include(rows)+>
+\end{matrix}<++>

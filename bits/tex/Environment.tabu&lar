@@ -1,0 +1,19 @@
+<tskel:here_before>
+let rows = input('Rows: ')
+let cols = input('Columns: ')
+if rows == '' || cols == ''
+    let b:tskelRows = '    <+ROWS+> \\'
+else
+    let b:tskelRows = tskeleton#InsertTable(rows, cols, '    ', ' \\', ' & ')
+endif
+</tskel:here_before>
+<tskel:here_after>
+unlet b:tskelRows
+</tskel:here_after>
+<tskel:menu>
+Table.tabular
+</tskel:menu>
+\begin{tabular}{<+CURSOR+>}
+<+b:tskelRows+>
+\end{tabular}
+<++>

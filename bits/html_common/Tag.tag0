@@ -1,0 +1,2 @@
+<+input('b:tskelTag!', 'Tag: ')+>
+<<+b:tskelTag+><+CURSOR+> /><++>

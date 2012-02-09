@@ -1,0 +1,5 @@
+#TI: <+CURSOR+>
+#AU: <+AUTHOR+>
+#DATE: today
+% #VAR: keywords=<+KEYWORDS+>
+#MAKETITLE<++>

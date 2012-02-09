@@ -1,0 +1,1 @@
+\<+select('s:size', ['big', 'Big', 'bigg', 'Bigg'])+>l\l<+select('s:delim', ['brace', 'angle', 'ceil', 'floor', 'group', 'moustache', 'Vert', 'vert'])+> <+CURSOR+> \<+s:size+>r\r<+s:delim+><++>

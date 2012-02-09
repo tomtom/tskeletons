@@ -1,0 +1,10 @@
+<tskel:before>
+let s:my_rows = input('Rows: ')
+let s:my_cols = input('Columns: ')
+</tskel:before>
+<tskel:after>
+unlet! s:my_rows s:my_cols
+</tskel:after>
+<+for(i in range(s:my_rows))+>
+|<+for(j in range(s:my_cols))+> <+CURSOR+> |<+endfor(j)+><+nop+>
+<+endfor(i)+>

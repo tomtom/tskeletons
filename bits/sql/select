@@ -1,0 +1,2 @@
+SELECT <+CURSOR+>
+FROM <+TABLE+>;

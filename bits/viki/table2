@@ -1,0 +1,5 @@
+<+input('b:rows!', 'Rows: ')+>
+<+input('b:cols!', 'Cols: ')+>
+<+for(i in range(b:rows))+>
+|<+for(j in range(b:cols))+> <+CURSOR+> |<+endfor(j)+><+nop+>
+<+endfor(i)+>

@@ -1,0 +1,3 @@
+CREATE TABLE<+CURSOR/ IF NOT EXISTS+> <+TABLE+> (
+    <+/column_def+><++>
+);

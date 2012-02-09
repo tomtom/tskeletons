@@ -1,0 +1,6 @@
+<tskel:menu>
+Math.Cases
+</tskel:menu>
+\begin{cases}
+    <+include(rows)+>
+\end{cases}<++>
